@@ -9,10 +9,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.xml.bind.annotation.XmlRootElement;
 
-import org.springframework.stereotype.Component;
 @Entity
 @XmlRootElement
-@Component
 public class Carro implements Serializable {
 	private static final long serialVersionUID = 1L;
 	@Id

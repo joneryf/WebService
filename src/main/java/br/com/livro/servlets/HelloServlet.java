@@ -8,7 +8,10 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.springframework.stereotype.Component;
+
 @WebServlet("/hello")
+@Component
 public class HelloServlet extends HttpServlet {
 	public static final long serialVersionUID = 1L;
 	@Override

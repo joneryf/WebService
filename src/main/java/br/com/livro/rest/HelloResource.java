@@ -6,9 +6,12 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
+import org.springframework.stereotype.Component;
+
 import br.com.livro.domain.Response;
 
 @Path("/hello")
+@Component
 public class HelloResource {
 	@GET
 	@Consumes(MediaType.TEXT_HTML)

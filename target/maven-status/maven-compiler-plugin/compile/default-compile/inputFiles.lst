@@ -3,6 +3,7 @@ C:\Users\Jonery\workspace\Carros\src\main\java\br\com\livro\servlets\CarrosServl
 C:\Users\Jonery\workspace\Carros\src\main\java\br\com\livro\domain\ListaCarros.java
 C:\Users\Jonery\workspace\Carros\src\main\java\br\com\livro\rest\GsonMessageBodyHandler.java
 C:\Users\Jonery\workspace\Carros\src\main\java\br\com\livro\rest\MyApplication.java
+C:\Users\Jonery\workspace\Carros\src\main\java\br\com\livro\domain\HibernateDAO.java
 C:\Users\Jonery\workspace\Carros\src\main\java\br\com\livro\domain\Carro.java
 C:\Users\Jonery\workspace\Carros\src\main\java\br\com\livro\domain\Response.java
 C:\Users\Jonery\workspace\Carros\src\main\java\br\com\livro\rest\HelloResource.java

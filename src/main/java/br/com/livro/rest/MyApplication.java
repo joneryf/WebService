@@ -5,6 +5,9 @@ import java.util.Map;
 
 import javax.ws.rs.core.Application;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class MyApplication extends Application {
 
 	@Override

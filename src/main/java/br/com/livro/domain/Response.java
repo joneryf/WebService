@@ -2,7 +2,10 @@ package br.com.livro.domain;
 
 import javax.xml.bind.annotation.XmlRootElement;
 
+import org.springframework.stereotype.Component;
+
 @XmlRootElement
+@Component
 public class Response {
 	private String status;
 	private String msg;

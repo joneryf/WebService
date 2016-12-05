@@ -5,7 +5,10 @@ import java.util.List;
 
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
+
+import org.springframework.stereotype.Component;
 @XmlRootElement(name="carros")
+@Component
 public class ListaCarros implements Serializable {
 	private static final long serialVersionUID = 1L;
 	private List<Carro> carros;
